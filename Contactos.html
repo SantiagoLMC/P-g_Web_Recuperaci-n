@@ -1,0 +1,169 @@
+</Doctype HTML>
+<html>
+	<head lang="es">
+	<meta charset="utf-8">
+	<title>Contactos</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Pag_CSS.css">
+	<link rel="icon" type="image/png" href="img/Logo.PNG">
+	<script type="text/javascript" src="JS/Pag_JS.js"></script>
+	</head>
+	<body>
+	<header>
+	  <div id="menu">
+        <ul class="nav">
+		<a href="index.html"><img src="img/Logo.png" id="logo" title="Home"></a> 
+            <li><a href="Quienes_Somos.html">Quiénes somos</a></li>
+            <li><a href="Instalaciones.html">Instalaciones</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+			 <li><a href="Productos.html">Productos</a>
+				<ul>
+                    <li><a href="Monitores.html">Monitores</a></li>
+					<li><a href="PC.html">Ordenadores</a></li>
+					<li><a href="Impresoras.html">Impresoras</a></li>
+					<li><a href="Mouses.html">Mouses</a></li>
+					<li><a href="Teclados.html">Teclados</a>
+                </ul></li>
+			 <li><a href="Contactos.html">Contactos</a></li>
+        </ul> 
+    </header>
+    </div>
+	<!--<div class="cabecera">
+	<div class="somos">Quiénes somos
+	<div class="instal">Instalaciones
+	<div class="Serv">Servicios
+	<div class="Product">Productos
+	<div class="Contact">Contactos
+	<div id="">
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<div id="formu">-->
+	<div id="formu">
+	 <div id="contacto">
+            <div id="GM"style="width: 100%"><iframe width="90%" height="300" src="https://maps.google.com/maps?width=100%&height=600&hl=es&coord=40.373177399999977,-3.918796999999889&q=calle%20tajo%20s%2Fn+(C3%20S.L.)&ie=UTF8&t=k&z=15&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/calcular-ruta.html">mapas y direcciones</a></iframe></div><br/>
+            
+	<h3 align="center">Rellene el formulario</h3>
+	<form name="formul"  action="raul.rodriguez@universidadeuropea.es" onsubmit="return ValidarForm()"><!---->
+		<!--<fieldset>
+		<legend>Formulário de Contacto</legend>
+		Direccion: 
+		<br>
+		<br>
+		Madrid TLF: 91 211 65 73 
+		<br>
+		<br>
+		Mail: 
+		<br>
+		<br>
+		</fieldset>
+		<p>
+		<p>-->
+		<fieldset>
+		<legend>Datos del consumidor</legend>
+		<br>
+		<br>
+		Nombre:           <input type="text" placeholder="Nombre" name="nombre">
+		<br>
+		<br>
+		Primer Apellido:  <input type="text" placeholder="Primer Apellido" name="apellido1">
+		<br>
+		<br>
+		Segundo Apellido: <input type="text" placeholder="Segundo Apellido" name="apellido2">
+		<br>
+		<br> 
+		<div id="dat_2">
+		Mail:             <input type="email" placeholder="Mail" name="mail">
+		<br>
+		<br>
+		Teléfono:        <input type="number" placeholder="Teléfono" name="telef">
+		<br>
+		<br>
+		Asunto: Consultoría<input type="checkbox" name="consul">
+		Desarrollo de Proyectos <input type="checkbox" name="desa"> 
+		<br>
+		Realización de pedidos <input type="checkbox" name="realiz">
+		<select name="List">
+		<option>Monitores</option>
+		<option>Ordenadores</option>
+		<option>Impresoras</option>
+		<option>Mouses</option>
+		<option>Teclados</option>
+		</select>
+		Otros <input type="checkbox" name="Otros">
+		<br>
+		<br>
+		</div>
+		Mensaje: 
+		<br>
+		<p>
+		<textarea align="center" type="text" cols="60" rows="4"></textarea>
+		
+		</p>
+		</fieldset>
+		<p>
+		<p>
+		<fieldset>
+		<legend>Dirección del consumidor</legend>
+		<br>
+		<br>
+		Distrito o Estado: <input type="text" placeholder="Distrito o Estado" name="DE">
+		<br>
+		<br>
+		Ciudad o pueblo: <input type="text" placeholder="Ciudad o pueblo" name="CP">
+		<br>
+		<br>
+		Código Postal:   <input type="text" placeholder="Código postal" name="Post">
+		<br>
+		<br>
+		Número:          <input type="text" placeholder="Número" name="Num">
+		<br>
+		<br>
+		<div id="dat_4">
+		Piso:            <input type="text" placeholder="Piso" name="Piso">
+		<br>
+		<br>
+		Calle:           <input type="text" placeholder="Calle" name="Calle">
+		<br>
+		<br>
+		Portal:          <input type="text" placeholder="Portal" name="Portal">
+		<br>
+		<br>
+		Puerta:          <input type="text" placeholder="Puerta" name="Puerta">
+		<br>
+		<br>
+		</div>
+		</fieldset>
+		<p>
+		<p>
+		<fieldset>
+		<div class="cuad1">
+		  <p id="textprincipal"><legend>Opciones de Pago</legend></p>
+		  <div class="cuadpago1">
+            <p> Metodo de pago <select name="pago">
+                <option value="" selected disabled hidden>Seleccione método de pago</option>
+                <option value="1">Efectivo</option> 
+                <option value="2">Tarjeta de credito</option> 
+                <option value="3">PayPal</option>
+            </select></p>
+            </div>
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar">
+		</fieldset>
+		</div>
+	</div>
+	<p>
+	<footer>
+       <div id="f1">
+        <p>contactoservnet@gmail.es</p>
+        </div>
+        <div id="f2">
+        <p>91824682 / 675675345</p>
+		</div>
+        </footer>
+    </div>
+	</body>
+</html>

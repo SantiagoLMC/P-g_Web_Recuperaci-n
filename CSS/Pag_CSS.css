@@ -1,0 +1,531 @@
+body{
+	background-image: url(../IMG/Fondo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	max-width: 100%;
+}
+header{
+	font-family: arial-narrow;
+	position: fixed;
+	z-index: 2;
+	top: 2; 
+}
+video{
+	width: 80%;
+}
+#carrusel{
+	/*margin-top: 20%;
+	width: 25%;
+	background-color: gray;
+	margin-left: 38%;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 4.75%;
+    overflow: hidden;
+    padding: 2%;
+}
+#GM{
+	margin-left: 5%;
+}
+#COLBG{
+	background-color: white;
+	margin-top: 4%;
+	width: 101.1%;
+	height: 77%;
+	margin-left: -0.5%;
+	padding-top: 1%;
+}
+#Tit{
+	margin-top: 5%;
+}
+/*Pag_Prin*/
+#carru{
+	margin-top: 5%;
+	width: 30%;
+	margin-left: 36%;
+	border: #5B7FE9 ridge;
+	border-radius: 7px;
+}
+.D{
+	width: 40%;
+	border: solid;
+	margin-left: %; 
+	
+}
+#logo{
+	width: 5.5%;
+	margin-left: 9%;
+}
+#Quienes_Somos {
+	padding-top: 7px;
+	width: 70%;
+	height: 130%;
+	margin-left: 15%;
+	margin-top: 7.3%;
+	background-color: #D2E8DF;
+	text-align: center;
+	z-index: -1;
+}
+
+#Descrip{
+	padding-top: 7px;
+	width: 70%;
+	height: 150%;
+	margin-left: 15%;
+	margin-top: 7.3%;
+	background-color: #D2E8DF;
+	text-align: center;
+	z-index: -1;
+}
+/*Instalaciones*/ 
+.cuerpo{
+	margin-top: 3%;
+	margin-left: 0.01%;
+	width: 100%;
+	bolder: solid;
+}
+/*Servicios*/
+#imgserv{
+	border-radius: 3%;
+	padding-right: 3%;
+	background-color: #1B9563;
+	width: 45%;
+	height: 45%;
+	margin-left: 27%; 
+	border: black 5px groover;
+}
+#RepServ{
+	margin-left: -8%;
+	margin-top: -3%;
+}
+#sec{
+	width: 30%;
+}
+#rectimgs{
+	background-color: #AAD0C0;
+	width:  101.1%;
+	margin-left: -0.5%;
+	padding-top: 0.5%;
+}
+#Video{
+	margin-top: 5.1%;
+	z-index: -2;
+	top: -1px;
+}
+#robot{
+	width: 30%;
+	border: solid;
+}
+#robotA{
+	margin-left: 3%;
+	width: 30%; 
+	border: solid;
+}
+.REPAR{
+	width: 30%;
+}
+#Serv{
+	padding-top: 3%;
+	padding-bottom: 65%;
+	width: 70%;
+	height: 180%;
+	margin-left: 15%;
+	margin-top: 7.3%;
+	background-color: #D2E8DF;
+	text-align: center;
+	z-index: -1;
+	
+}
+.S{
+	margin-top: 3.3%;
+}
+#foot{
+	margin-top: 0%;
+}
+#formu{
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	color: white;
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 80%;
+	height: 170%;
+	background-color: #239588;
+	border-radius: 8px;
+	
+}
+#dat_2{
+	margin-top: -12%;
+	margin-left: 50%;
+}
+#dat_4{
+	margin-top: -15%;
+	margin-left: 50%;
+}
+.cabecera{
+	margin-top: -19.3%;
+	margin-left: -0.56%;
+	width: 101.19%;
+	height: 10%;
+	background-color: #6DAAA3;
+	font-size: 150%;
+	z-index: -1;
+	
+} 
+.nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 9.2px 5px;
+    display: block;
+}
+.nav li a:hover{
+    transition: 0.7s;
+    background-color: #165470;
+	
+	
+}
+.nav > li{  
+    float: left;
+    margin-left: 5%;
+    width: 150px;
+	list-style: none;
+	z-index: 2;
+}
+.nav > li > ul > li{
+    width: 200px;
+	z-index: 2;
+}
+.nav li ul{
+    display: none;
+    position: fixed;
+    min-width: 150px;
+	background-color: #1D698B;
+	opacity: 1;
+}
+.nav li:hover > ul{
+    display: block;
+	z-index: 2;
+}
+.nav li ul li ul{
+    right: -110px;
+    top: 0px;
+}
+li{
+    width: 300px;
+}
+#menu{
+    background-color: #227BA2;
+    overflow: hidden;
+    width: 101.2%;
+	margin-top: -0.57%;
+    margin-bottom: 160px;
+	margin-left: -0.57%;
+	display: block;
+	position: absolute;
+	top: 0;
+	position: fixed;
+}
+.somos{
+	margin-left: 20%;
+	margin-top: 22%;
+}
+.instal{
+	margin-left: 20%;
+}
+#Serv{
+	margin-left: 15%;
+	height: 120%;
+}
+.Product{
+	margin-left: 20%;
+}
+.Contact{
+	margin-left: 20%;
+	
+}
+/*Catálogo*/
+.ops{
+}
+/*.Empres > img{
+	transition: all 0.5s ease;
+}
+.Empres > img:hover{
+	transform: escale(0.9);
+}*/
+.monit1{
+	width: 15%; 
+	margin-top: 20%;
+	margin-bottom: 10%;
+	margin-left: 8%;
+}
+.monit1:hover{
+	transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.PC1{
+	margin-top: 5%;
+	margin-bottom: 10%;
+	width: 8%;
+	margin-left: 5%;
+}
+.PC1:hover{
+	transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.Impresora1{
+	margin-top: ;
+	margin-bottom: 10%;
+	width: 15%;
+	margin-left: 5%;
+}
+.Impresora1:hover{
+	transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mouse1{
+	margin-top: 5%;
+	margin-bottom: 10%;
+	width: 10%;
+	margin-left: 5%;
+}
+.mouse1:hover{
+	transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.teclado1{
+	margin-bottom: 10%;
+	width: 15%;
+	margin-left: 5%;
+	margin-top: 5%; 
+}
+.teclado1:hover{
+	transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*Ventas*/
+#Art{
+	width: 70%;
+	height: 290%;
+	margin-left: 15%;
+	margin-top: 1%;
+	background-color: #D2E8DF;
+	text-align: center;
+	z-index: -1;
+}
+#pantallas{
+	color: white;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+#monitor1{
+	margin-top: 15%;
+	margin-left: -15%;
+}
+#monitor2{
+	width: 30%;
+	margin-left: 30%;
+}
+#text1{
+	margin-left: -70%;
+}
+#text2{
+	margin-left: 40%;
+}
+#text3{
+	margin-left: -80%;
+}
+#text4{
+	margin-left: 51%;
+	padding-bottom: 6%;
+	margin-bottom: 6%;
+}
+#MARK1{
+	width: 20%;
+	margin-left: 20%;
+}
+#MARK2{
+	width: 20%;
+	margin-left: -5%;
+}
+#MARK3{
+	width: 20%;
+	margin-left: -90%;
+}
+#MARK4{
+	width: 20%;
+	margin-left: -80%;
+}
+#MARK5{
+	
+	margin-left: -5%;
+}
+#MARK5{
+	width: 20%;
+	margin-left: -80%;
+}
+#MARK6{
+	width: 20%;
+	margin-left: -3%;
+}
+#MARK7{
+	width: 30%;
+	margin-left: -10%;
+}
+#MARK8{
+	margin-left: -70%;
+}
+#monitor3{
+	margin-left: -40%;  
+}
+#monitor4{
+	margin-left: 40%;
+	width: 30%;
+}
+
+#ordenador{
+	color: black;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+#comp1{
+	margin-top: 15%;
+	margin-left: -30%;
+}
+#comp2{
+	margin-left: -25%;
+}
+#comp3{
+	margin-left: -40%;
+}
+#comp4{
+	margin-left: -10%;
+	width: 30%;
+}
+#impres{ 
+	margin-top: 15%;
+	color: white;
+	margin-left: 10%;
+}
+#Impre1{
+	width: 30%; 
+	margin-left: -25%;
+	margin-top: 10%;
+}
+#Impre2{
+	margin-left: -10%;
+	width: 35%;
+}
+#Impre3{
+	margin-left: -30%;
+	width: 30%;
+}
+#Impre4{
+	width: 30%;
+	margin-left: 31%;
+}
+#mou{
+	color: white;
+	margin-left: 5%;
+}
+#rat1{
+	width: 20%;
+	margin-left: -80%;
+	margin-top: 15%;
+}
+#rat2{
+	margin-left: 61%;
+}
+#rat3{
+	margin-left: -80%;
+}
+#rat4{
+	margin-left: 61%;
+	
+}
+#tecla{
+	color: white;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+#tec1{
+	width: 30%;
+	margin-left: -30%;
+}
+#tec2{
+	margin-left: 20%;
+}
+#tec3{
+	margin-left: -80%;
+}
+#tec4{
+	margin-left: 61%;
+}
+#f1{
+	margin-left: 5%;
+}
+#f2{
+	margin-left: 5%;
+}
+.Empres{
+	padding-top: 1%;
+	background-color: gray;
+	/*margin-top: 30%;*/
+	/*height: 25%;*/
+	width:  101.1%;
+	margin-left: -0.5%;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    margin-bottom: -10%;
+	margin-left: -0.58%;
+	padding-bottom: 1%;
+	position: absolute;
+}
+.slider {
+	width: 20%;
+	margin: auto;
+	margin-top: 20%;
+	overflow: hidden;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 3s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
